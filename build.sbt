@@ -6,7 +6,7 @@ name := "spark-daria"
 version := "1.0.0"
 crossScalaVersions := Seq("2.12.12")
 scalaVersion := "2.12.12"
-val sparkVersion = "3.0.1"
+val sparkVersion = "3.1.1"
 
 libraryDependencies += "org.apache.spark" %% "spark-sql" % sparkVersion % "provided"
 libraryDependencies += "org.apache.spark" %% "spark-mllib" % sparkVersion % "provided"
